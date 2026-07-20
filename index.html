@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>XAUUSD Lot Size Calculator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="card">
+
+<h1>XAUUSD Calculator</h1>
+
+<input type="number" id="balance" placeholder="Account Balance ($)">
+
+<input type="number" id="risk" placeholder="Risk %">
+
+<input type="number" id="sl" placeholder="Stop Loss (Pips)">
+
+<button onclick="calculate()">Calculate</button>
+
+<div class="result">
+<h3>Risk Amount</h3>
+<p id="riskAmount">$0.00</p>
+
+<h3>Lot Size</h3>
+<p id="lotSize">0.00</p>
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
